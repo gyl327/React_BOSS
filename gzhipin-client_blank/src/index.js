@@ -12,9 +12,9 @@ ReactDOM.render((
   <Provider store={store}>
     <HashRouter>
       <Switch>
-        <Route path='/register' component={Register}></Route>
-        <Route path='/login' component={Login}></Route>
-        <Route component={Main}></Route>
+        <Route path="/register" component={Register}/>
+        <Route path="/login" component={Login}/>
+        <Route component={Main}></Route> 默认路由
       </Switch>
     </HashRouter>
   </Provider>

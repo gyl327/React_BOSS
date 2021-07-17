@@ -26,8 +26,8 @@ module.exports = function override(config, env) {
         loader: require.resolve('less-loader'),
         options: {
           modifyVars: {
-            "@brand-primary": "#1cae82",
-            "@brand-primary-tap": "#1DA57A",
+            "@brand-primary": "#7ECBFA",
+            "@brand-primary-tap": "#37B2FA",
           },
         },
       },
