@@ -19,9 +19,11 @@ export default class Login extends Component {
     username: '',
     password: '',
   }
+
   login = () => {
     console.log(this.state)
   }
+
   handleChange = (name, val) => {
     this.setState({
       [name]: val
