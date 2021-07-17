@@ -1,5 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Button} from 'antd-mobile'
+import {HashRouter, Route, Switch} from "react-router-dom";
 
-ReactDOM.render( <Button type='primary'>Test</Button>, document.getElementById('root') )
+import Register from './containers/register'
+import Login from './containers/login'
+import Main from './containers/main'
+
+ReactDOM.render( (
+  <HashRouter>
+    <Switch>
+      <Route path='/register' component={Register}></Route>
+      <Route path='/login' component={Login}></Route>
+      <Route component={Main}></Route>
+    </Switch>
+  </HashRouter>
+), document.getElementById('root') )
