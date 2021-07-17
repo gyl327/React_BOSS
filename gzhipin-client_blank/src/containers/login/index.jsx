@@ -29,6 +29,7 @@ export default class Login extends Component {
       [name]: val
     })
   }
+
   toRegister = () => {
     this.props.history.replace('/register')
   }
