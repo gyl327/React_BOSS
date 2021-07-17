@@ -14,4 +14,4 @@ ReactDOM.render( (
       <Route component={Main}></Route>
     </Switch>
   </HashRouter>
-), document.getElementById('root') )
+), document.getElementById('root'))
