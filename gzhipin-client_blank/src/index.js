@@ -8,7 +8,7 @@ import Login from './containers/login'
 import Main from './containers/main'
 import store from './redux/store'
 
-ReactDOM.render( (
+ReactDOM.render((
   <Provider store={store}>
     <HashRouter>
       <Switch>
