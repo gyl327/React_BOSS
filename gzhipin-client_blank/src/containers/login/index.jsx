@@ -14,8 +14,6 @@ import {
 
 import Logo from '../../components/logo/logo'
 
-const ListItem = List.Item
-
 export default class Login extends Component {
   state = {
     username: '',
