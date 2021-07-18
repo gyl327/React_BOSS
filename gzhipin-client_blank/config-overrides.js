@@ -26,8 +26,8 @@ module.exports = function override(config, env) {
         loader: require.resolve('less-loader'),
         options: {
           modifyVars: {
-            "@brand-primary": "#1cae82",
-            "@brand-primary-tap": "#1DA57A",
+            "@brand-primary": "#7ECBFA",
+            "@brand-primary-tap": "#37B2FA",
           },
         },
       },
@@ -56,10 +56,10 @@ config.module.rules[1].oneOf.unshift( {
             flexbox: 'no-2009',
           }),
         ],
-}, },
-]
-} );
-let l = getLoader(config.module.rules, fileLoaderMatcher);
-l.exclude.push(/\.less$/);
-return config;
+      }, },
+    ]
+  } );
+  let l = getLoader(config.module.rules, fileLoaderMatcher);
+  l.exclude.push(/\.less$/);
+  return config;
 };
