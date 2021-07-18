@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac400a43-d7db-4ea4-a324-6d9d6eac6664" name="Default Changelist" comment="" />
+    <list default="true" id="ac400a43-d7db-4ea4-a324-6d9d6eac6664" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gzhipin-server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-server/bin/www" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
