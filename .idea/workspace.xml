@@ -217,7 +217,7 @@
       <workItem from="1626421200116" duration="1803000" />
       <workItem from="1626484307994" duration="15972000" />
       <workItem from="1626575341618" duration="268000" />
-      <workItem from="1626575688609" duration="1274000" />
+      <workItem from="1626575688609" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="引入路由">
       <created>1626487907015</created>
@@ -279,7 +279,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27832000" />
+    <option name="totallyTimeSpent" value="27879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="82" width="1158" height="770" extended-state="1" />
