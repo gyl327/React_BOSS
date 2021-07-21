@@ -8,13 +8,14 @@ const initUser = {
   username: '',
   type: '',
   msg: '',
+  redirectTo: '',
 }
 
 //产生user状态的reducer
 function user(state=initUser, action){
   switch (action.type) {
     case AUTH_SUCCESS:
-      return {...state, ...action.data}
+      return {...action.data, redirectTo: '/'}
     case ERROR_MSG:
       return {...state, msg: action.data}
     default:
