@@ -4,8 +4,18 @@
 
 import React, {Component} from 'react'
 import {List, Grid} from "antd-mobile"
+import PropTypes from 'prop-types'
 
 export default class HeaderSelector extends Component {
+
+  static propTypes = {
+    setHeader: PropTypes.func.isRequired
+  }
+
+  state = {
+    icon: null //图片对象
+  }
+
   constructor(props){
     super(props)
     //准备头像
@@ -17,13 +27,27 @@ export default class HeaderSelector extends Component {
       })
     }
   }
+
+  handleClick = ({text, icon}) => {
+    //更新当前组件状态
+      this.setState({icon})
+    //调用函数更新父组件状态
+      this.props.setHeader(text)
+  }
+
   render() {
-    const listHeader = '请选择头像'
+    const {icon} = this.state
+    //头部界面
+    const listHeader = !icon ? '请选择图像' : (
+      <div>
+        已选择图像: <img src={icon} alt=''/>
+      </div>
+    )
     return (
       <List renderHeader={() => listHeader}>
         <Grid data={this.headerList}
-              columnNum={5}></Grid>
-
+              columnNum={5}
+              onClick={this.handleClick}/>
       </List>
     )
   }
