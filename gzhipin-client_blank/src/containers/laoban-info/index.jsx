@@ -10,8 +10,10 @@ import {
   TextareaItem,
   Button
 } from 'antd-mobile'
+import {Redirect} from 'react-router-dom'
 
 import HeaderSelector from '../../components/header-selector/header-selector'
+import {updateUser} from '../../redux/actions'
 
 class LaobanInfo extends Component {
 
@@ -22,20 +24,29 @@ class LaobanInfo extends Component {
     company: '',
     salary: ''
   }
+
   setHeader = (header) => {
     this.setState({
       header
     })
   }
+
   handleChange = (name, value) => {
     this.setState({
       [name]: value
     })
   }
+
   save = () => {
-    console.log(this.state)
+    this.props.updateUser(this.state)
   }
+
   render() {
+    const {header, type} = this.props.user
+    if(header){
+      const path = type === 'dashen' ? '/dashen' : '/laoban'
+      return <Redirect to={path}/>
+    }
     return (
       <div>
         <NavBar>老板信息完善</NavBar>
@@ -52,6 +63,6 @@ class LaobanInfo extends Component {
 }
 
 export default connect(
-  state => ({}),
-  {}
+  state => ({user: state.user}),
+  {updateUser}
 )(LaobanInfo)
