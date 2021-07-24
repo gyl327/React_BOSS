@@ -1,7 +1,7 @@
 /*
 /包含n个action creator
  */
-import {reqLogin, reqRegister, reqUpdateUser} from '../api'
+import {reqLogin, reqRegister, reqUpdateUser, reqUser} from '../api'
 import {AUTH_SUCCESS, ERROR_MSG, RECEIVE_USER, RESET_USER} from './action-types'
 
 //授权成功的同步action
@@ -65,6 +65,19 @@ export const updateUser = (user) => {
     const response = await reqUpdateUser(user)
     const result = response.data
     if(result.code === 0){
+      dispatch(receiveUser(result.data))
+    }else{
+      dispatch(resetUser(result.msg))
+    }
+  }
+}
+
+//获取用户信息异步action
+export const getUser = () => {
+  return async dispatch => {
+    const response = await reqUser()
+    const result = response.data
+    if(result.code === 0){ //成功
       dispatch(receiveUser(result.data))
     }else{
       dispatch(resetUser(result.msg))
