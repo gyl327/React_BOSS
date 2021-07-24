@@ -1,6 +1,7 @@
 /*
 /包含n个action creator
  */
+
 import {reqLogin, reqRegister, reqUpdateUser, reqUser} from '../api'
 import {AUTH_SUCCESS, ERROR_MSG, RECEIVE_USER, RESET_USER} from './action-types'
 
