@@ -2,7 +2,7 @@
 包含n个reducer函数：根据老的state和指定的action返回一个新的state/
  */
 import {combineReducers} from 'redux'
-import {AUTH_SUCCESS, ERROR_MSG, RECEIVE_USER, RESET_USER} from './action-types'
+import {AUTH_SUCCESS, ERROR_MSG, RECEIVE_USER, RESET_USER, RECEIVE_USER_LIST} from './action-types'
 
 import {getRedirectTo} from '../utils'
 
@@ -30,7 +30,19 @@ function user(state=initUser, action){
   }
 }
 
+const initUserList = []
+// 产生userlist状态的reducer
+function userList(state=initUserList, action) {
+  switch (action.type) {
+    case RECEIVE_USER_LIST:  // data为userList
+      return action.data
+    default:
+      return state
+  }
+}
+
 export default combineReducers({
-  user
+  user,
+  userList
 })
 

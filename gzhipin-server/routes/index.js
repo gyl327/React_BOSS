@@ -74,6 +74,13 @@ router.get('/user', function (req, res) {
   })
 })
 
+//获取用户列表
+router.get('/userlist', function (req, res) {
+  const {type} = req.query
+  UserModel.find({type}, filter, function (err, users) {
+    res.send({code: 0, data: users})
+  })
+})
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
