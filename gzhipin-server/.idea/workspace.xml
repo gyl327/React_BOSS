@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533cad85-a0c6-4c82-8737-12f235ee10a0" name="Default Changelist" comment="完成后台登录接口">
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/assets/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/assets/css/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,13 +33,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
               <folding>
                 <element signature="e#236#662#0" />
                 <element signature="e#714#1030#0" />
                 <element signature="e#1089#1737#0" />
-                <element signature="e#1802#1808#0" />
               </folding>
             </state>
           </provider>
@@ -67,9 +65,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-10" />
-    <option name="y" value="1" />
-    <option name="width" value="1152" />
+    <option name="x" value="12" />
+    <option name="y" value="3" />
+    <option name="width" value="1557" />
     <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,17 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="gzhipin-server" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,11 +104,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="gzhipin-server" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gzhipin-client_blank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -168,7 +166,8 @@
       <workItem from="1626945304694" duration="675000" />
       <workItem from="1626955072383" duration="2103000" />
       <workItem from="1627027503352" duration="4858000" />
-      <workItem from="1627091676701" duration="1669000" />
+      <workItem from="1627091676701" duration="2289000" />
+      <workItem from="1627180189947" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="完成后台注册接口">
       <created>1626604107540</created>
@@ -188,13 +187,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19501000" />
+    <option name="totallyTimeSpent" value="22108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="610" y="8" width="921" height="812" extended-state="1" />
+    <frame x="10" y="3" width="1245" height="812" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2050985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14911541" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -207,8 +206,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297546" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27114716" side_tool="true" visible="true" weight="0.19264705" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.72885287" visible="true" weight="0.19264705" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27211457" side_tool="true" visible="true" weight="0.39117646" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.7278854" visible="true" weight="0.39117646" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,13 +295,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+        <state relative-caret-position="270">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
           <folding>
             <element signature="e#236#662#0" />
             <element signature="e#714#1030#0" />
             <element signature="e#1089#1737#0" />
-            <element signature="e#1802#1808#0" />
           </folding>
         </state>
       </provider>
