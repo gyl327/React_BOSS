@@ -16,6 +16,7 @@ import Message from '../message'
 import Personal from '../personal'
 import NotFound from '../../components/not-found'
 import NavFound from '../../components/nav-footer'
+import Chat from '../chat'
 
 import {getRedirectTo} from '../../utils'
 import {getUser} from '../../redux/actions'
@@ -101,10 +102,11 @@ class Main extends Component {
         {currentNav ? <NavBar className='sticky-header'>{currentNav.title}</NavBar> : null}
         <Switch>
           {
-            navList.map(nav => <Route path={nav.path} component={nav.component}/>)
+            navList.map(nav => <Route key={nav.path} path={nav.path} component={nav.component}/>)
           }
           <Route path='/laobaninfo' component={LaobanInfo}/>
           <Route path='/dasheninfo' component={DashenInfo}/>
+          <Route path='/chat/:userid' component={Chat}/>
           <Route component={NotFound}/>
         </Switch>
         {currentNav ? <NavFound navList={navList}/> : null}
