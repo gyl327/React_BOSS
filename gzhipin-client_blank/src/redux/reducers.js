@@ -2,7 +2,14 @@
 包含n个reducer函数：根据老的state和指定的action返回一个新的state/
  */
 import {combineReducers} from 'redux'
-import {AUTH_SUCCESS, ERROR_MSG, RECEIVE_USER, RESET_USER, RECEIVE_USER_LIST} from './action-types'
+import {
+  AUTH_SUCCESS,
+  ERROR_MSG,
+  RECEIVE_USER,
+  RESET_USER,
+  RECEIVE_USER_LIST,
+  RECEIVE_MSG,
+  RECEIVE_MSG_LIST} from './action-types'
 
 import {getRedirectTo} from '../utils'
 
@@ -41,8 +48,37 @@ function userList(state=initUserList, action) {
   }
 }
 
+const initChat = {
+  users: {},
+  chatMsgs: [],
+  unReadCount: 0 //总的未读数量
+}
+//产生聊天状态的reducer
+function chat(state=initChat, action) {
+  switch (action.type) {
+    case RECEIVE_MSG_LIST: //data: {users, chatMsgs}
+      const {users, chatMsgs} = action.data
+      return {
+        users,
+        chatMsgs,
+        unReadCount: 0
+      }
+    case RECEIVE_MSG: //data: chatMsg
+      const chatMsg = action.data
+      return {
+        users: state.users,
+        chatMsgs: [...state.chatMsgs, chatMsg],
+        unReadCount: 0
+      }
+    default:
+      return state
+  }
+}
+
+
 export default combineReducers({
   user,
-  userList
+  userList,
+  chat
 })
 

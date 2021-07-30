@@ -84,11 +84,11 @@ router.get('/userlist', function (req, res) {
 
 //获取当前用户所有相关聊天信息列表
 router.get('/msglist', function (req, res) {
-  // 获 取 cookie 中 的 userid
+  // 获取 cookie 中的userid
   const userid = req.cookies.userid
-  // 查 询 得 到 所 有 user 文 档 数 组
+  // 查询得到所有user文档数组
   UserModel.find(function (err, userDocs) {
-    // 用 对 象 存 储 所 有 user 信 息 :
+    // 用对象存储所有user信息 :
     // key 为 user 的 _id, val为 name和 header组 成 的 user对 象
     const users = {} //对 象 容 器
     userDocs.forEach(doc => {
@@ -107,9 +107,9 @@ router.get('/msglist', function (req, res) {
   })
 })
 
-/* 修 改 指 定 消 息 为 已 读 */
+/* 修改指定消息为已读 */
 router.post('/readmsg', function (req, res) {
-  // 得 到 请 求 中 的 from 和 to
+  // 得到请求中的 from 和 to
   const from = req.body.from
   const to = req.cookies.userid
   /* 更 新 数 据 库 中 的 chat数 据

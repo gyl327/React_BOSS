@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import {HashRouter, Route, Switch} from "react-router-dom"
 import {Provider} from 'react-redux'
 
-import './test/sockio_test'
+// import './test/sockio_test'
 
 import Register from './containers/register'
 import Login from './containers/login'

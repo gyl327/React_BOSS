@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533cad85-a0c6-4c82-8737-12f235ee10a0" name="Default Changelist" comment="完成后台登录接口">
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/assets/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/assets/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/user-list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/user-list/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/chat/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/chat/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/action-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/test/sockio_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/test/sockio_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,49 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/models.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="-107">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#258#515#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
-              <folding>
-                <element signature="e#236#662#0" />
-                <element signature="e#714#1030#0" />
-                <element signature="e#1089#1737#0" />
-                <element signature="e#1810#2069#0" />
-                <element signature="e#2125#2254#0" />
-              </folding>
+            <state relative-caret-position="754">
+              <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socketIO/test.js">
+        <entry file="file://$PROJECT_DIR$/socketIO/socketIO_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="400">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -86,18 +69,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/socketIO/test.js" />
         <option value="$PROJECT_DIR$/db/models.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/socketIO/socketIO_server.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="695" />
-    <option name="y" value="12" />
-    <option name="width" value="1290" />
-    <option name="height" value="954" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="358" />
+    <option name="y" value="143" />
+    <option name="width" value="1358" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,7 +188,9 @@
       <workItem from="1627180189947" duration="1987000" />
       <workItem from="1627214564163" duration="1795000" />
       <workItem from="1627376338387" duration="4152000" />
-      <workItem from="1627460820102" duration="12320000" />
+      <workItem from="1627460820102" duration="12331000" />
+      <workItem from="1627550340292" duration="840000" />
+      <workItem from="1627631240353" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="完成后台注册接口">
       <created>1626604107540</created>
@@ -224,13 +210,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40375000" />
+    <option name="totallyTimeSpent" value="45419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="10" width="1032" height="763" extended-state="0" />
+    <frame x="287" y="115" width="1086" height="809" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17967145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17023346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -243,12 +229,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297546" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.22792608" side_tool="true" visible="true" weight="0.15372425" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.7720739" visible="true" weight="0.15372425" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4192607" side_tool="true" visible="true" weight="0.19793205" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5807393" visible="true" weight="0.19793205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.23643808" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.23540856" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,39 +304,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="314">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/socketIO/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/models.js">
+    <entry file="file://$PROJECT_DIR$/socketIO/socketIO_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#258#515#0" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+        <state relative-caret-position="754">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#236#662#0" />
-            <element signature="e#714#1030#0" />
-            <element signature="e#1089#1737#0" />
-            <element signature="e#1810#2069#0" />
-            <element signature="e#2125#2254#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
