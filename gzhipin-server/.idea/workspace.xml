@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533cad85-a0c6-4c82-8737-12f235ee10a0" name="Default Changelist" comment="完成后台登录接口">
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/nav-footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/nav-footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/user-list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/components/user-list/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/chat/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/chat/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/main/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/message/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/containers/message/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client_blank/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
