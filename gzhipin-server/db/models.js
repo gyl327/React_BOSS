@@ -23,3 +23,17 @@ const userSchema = mongoose.Schema({
 const UserModel = mongoose.model('user', userSchema)
 
 exports.UserModel = UserModel
+
+//定 义 chats集 合 的 文 档 结 构
+const chatSchema = mongoose.Schema({
+  from: {type: String, required: true}, //发 送 用 户 的 id
+  to: {type: String, required: true}, //接 收 用 户 的 id
+  chat_id: {type: String, required: true}, // from 和 to组 成 的 字 符 串
+  content: {type: String, required: true}, //内 容
+  read: {type:Boolean, default: false}, //标 识 是 否 已 读
+  create_time: {type: Number} //创 建 时 间
+})
+//定 义 能 操 作 chats集 合 数 据 的Model
+const ChatModel = mongoose.model('chat', chatSchema)
+// 向 外 暴 露 Model
+exports.ChatModel = ChatModel
